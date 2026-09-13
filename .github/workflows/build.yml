@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: 22
       - name: CI-Pipe
-        run: ./scripts/Ci.sh
+        run: bash ./scripts/Ci.sh
