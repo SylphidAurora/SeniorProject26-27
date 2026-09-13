@@ -2,6 +2,9 @@
 #Add a new script to ./scripts and call it within Ci.sh
 name: CI Scripts
 on:
+  push:
+    branches:
+      - branch-protection-status-check
   pull_request:
     branches:
       - main
