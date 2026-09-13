@@ -2,5 +2,5 @@
 | Date<br>(M/D/Y) | Team<br>Member | Tool & Version |        Prompt / Query<br>Summary         | Output Received &<br>Intended Use | Human Verification &<br>Modifications Made |
 | :-------------: | :------------: | :------------: | :--------------------------------------: | :-------------------------------: | :----------------------------------------: |
 |    1/1/1900     |      Bob       |   Brain v1.0   | "Generate an example of an AI log entry" | This example to use as an example | All entries should follow this formatting  |
-|                 |                |                |                                          |                                   |                                            |
-
+|    9/13/2026    |      Jack      | ChatGPT GPT-5.6| "Form these bullet points into a cohesive set of paragraphs." Bullet points where for ProblemSpaceStatement/Project Justification | AI organized the provided bullet points into several connected paragraphs for the project's problem-space statement. | Typed the paragraphs manualy, removed halucinations |
+|    9/13/2026    |      Jack      | ChatGPT GPT-5.6| List some responsibilities these roles: Team Lead, Backend, UI/UX, Documentation, and Testing/QA.              | ChatGPT provided simple explanations of each role and clarified the responsibilities of each team member within a senior design project.  | Reworked for use in describing the actual roles for our project |
