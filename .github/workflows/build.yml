@@ -1,6 +1,6 @@
 #Do not modify this file
 #Add a new script to ./scripts and call it within Ci.sh
-name: CI Scripts
+
 on:
   pull_request:
     branches:
@@ -9,11 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
       - name: EnvSetup
         uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: '22'
       - name: CI-Pipe
-        run: bash ./scripts/Ci.sh
+        run: ./scripts/Ci.sh
