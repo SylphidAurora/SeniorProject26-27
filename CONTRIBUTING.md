@@ -19,7 +19,7 @@ Any affected feature will be checked before Pull Request is accepted<br>
 The author may merge themselves once reviewed<br>
 Bugs should be noted<br>
 
-## Code Review Requirments ##
+## Code Review Requirements ##
 Code should follow these guidelines<br>
 Any variable that represents something will be named accordingly with a single capital letter<br>
 "main()" will allways be the bottom most funciton<br>
